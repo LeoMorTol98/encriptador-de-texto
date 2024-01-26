@@ -1,0 +1,96 @@
+header{
+    background:linear-gradient(#AAAAAA,white);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo{
+  margin: 20px;  
+}
+
+header p{
+    font-size: 20px;
+    font-weight: bold;
+    color:#555555;
+    text-shadow: 10px 10px 15px black;
+}
+
+main{
+    background:linear-gradient(white,#AAAAAA);
+}
+
+.contenido{
+    margin: 20px 10%;
+}
+
+.texto-encriptable{
+    display: inline-block;
+    width: 60%;
+    height: 500px;
+    border-radius: 10px;
+    border-color: black;
+    margin: 0 20px;
+    background-image: linear-gradient(white,rgb(226, 220, 220))
+}
+
+.texto-encriptado{
+    display: inline-block;
+    width: 30%;
+    height: 500px;
+    border-radius: 10px;
+    border-color: black;  
+    background-image: linear-gradient(white,rgb(226, 220, 220))
+}
+
+.Botones{
+    padding: 0 0 40px 0;
+}
+
+.encriptar{
+    margin: 0 0 0 14%;
+    background: rgb(117, 117, 149);
+    font-size: 30px;
+    padding: 0 60px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.desencriptar{
+    margin: 0 0 0 11%;
+    background: rgb(117, 117, 149);
+    font-size: 30px;
+    padding: 0 30px;
+    border-radius: 10px;
+    color: aliceblue; 
+}
+
+.copiar:disabled{
+    margin: 0 0 0 10%;
+    background: white;
+    font-size: 30px;
+    padding: 0 30px;
+    border-radius: 10px;
+    color: black;
+}    
+
+
+.copiar{
+    margin: 0 0 0 10%;
+    background: rgb(117, 117, 149);
+    font-size: 30px;
+    padding: 0 30px;
+    border-radius: 10px;
+    color: aliceblue;   
+}
+
+footer{
+    text-align: center;
+    background: #AAAAAA;
+    padding-bottom: 10px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 13px;
+    color: white;
+}
