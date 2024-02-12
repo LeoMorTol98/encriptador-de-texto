@@ -14,20 +14,20 @@
     </header>
     <main>
         <section class="contenido">
-            <textarea class="texto-encriptable" placeholder="Ingresa el mensaje aquí: (no uses mayusculas ni simbolor)"></textarea>
-            <textarea class="texto-encriptado" placeholder="Este es el resultado:"></textarea>
+            <input class="texto-encriptable" id="idTextoEnc" placeholder="Ingresa el mensaje aquí: (no uses mayusculas ni simbolor)">
+            <textarea class="texto-encriptado" id="idTextoRes" placeholder="Este es el resultado:"></textarea>
         </section>
 
         <section class="Botones">
-            <button class="encriptar">Encriptar</button>
-            <button class="desencriptar">Desencriptar</button>
-            <button class="copiar" disabled>Copiar</button>
+            <button onclick="Encriptar();" class="encriptar">Encriptar</button>
+            <button onclick="Desencriptar();" class="desencriptar">Desencriptar</button>
+            <button onclick="Copiar();" class="copiar" id="idCopiar" disabled>Copiar</button>
         </section>
     </main>
     <footer>
         <img src="Img/Logo.png" alt="logo de alura" class="logo">
         <p>CopyRight Leonardo Moreno</p>
     </footer>
-    
 </body>
+<script src="app.js" defer></script>
 </html>

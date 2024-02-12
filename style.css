@@ -26,11 +26,11 @@ main{
 .texto-encriptable{
     display: inline-block;
     width: 60%;
-    height: 500px;
     border-radius: 10px;
     border-color: black;
     margin: 0 20px;
-    background-image: linear-gradient(white,rgb(226, 220, 220))
+    vertical-align: top;
+    background: white;
 }
 
 .texto-encriptado{
@@ -39,7 +39,7 @@ main{
     height: 500px;
     border-radius: 10px;
     border-color: black;  
-    background-image: linear-gradient(white,rgb(226, 220, 220))
+    background: linear-gradient(white,rgb(226, 220, 220))
 }
 
 .Botones{
@@ -53,7 +53,7 @@ main{
     padding: 0 60px;
     border-radius: 10px;
     color: aliceblue;
-}
+    }
 
 .desencriptar{
     margin: 0 0 0 11%;
@@ -93,4 +93,31 @@ footer p{
     text-align: center;
     font-size: 13px;
     color: white;
+}
+
+@media screen and (max-width:480px) {
+    .contenido{
+        margin: 10% 10%;
+    }
+    .texto-encriptable,.texto-encriptado{
+        display: block;
+        width: 100%;
+        margin: 0 10px 0 10px;
+    }
+    .Botones{
+        margin: auto;
+        text-align: center;
+    }
+
+    .encriptar,.desencriptar{
+        display: block;
+        margin: 0 0 0 23%;
+        margin-bottom: 5%;
+    }
+
+    .copiar,.copiar:disabled{
+        display: block;
+        margin: 0 0 0 34%;
+        margin-bottom: 5%; 
+    }
 }
